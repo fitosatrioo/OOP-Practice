@@ -5,10 +5,10 @@
 
 /**
  *
- * @author user
+ * @author fito
  */
 public class Wheels {
-    //Membuat variabel private karena hanya diakses oleh class ini saja
+    // Membuat variabel private karena hanya diakses oleh class ini saja
     private int size; // Ukuran roda dalam inci
     private String type; // Jenis roda (All-Terrain, Sport, dll.)
 

@@ -5,7 +5,7 @@
 
 /**
  *
- * @author user
+ * @author fito
  */
 public class Car {
     //Membuat variabel private karena hanya diakses oleh class ini saja
@@ -36,7 +36,7 @@ public class Car {
         }
     }
 
-    // Metode untuk menjalankan mobil
+    // Method untuk menjalankan mobil
     public void drive() {
         // Mengecek apakah bahan bakar masih tersedia sebelum mobil bisa berjalan
         if (fuelTank.getFuelLevel() > 0) {
@@ -50,13 +50,13 @@ public class Car {
         }
     }
 
-    // Metode untuk menghentikan mobil
+    // Method untuk menghentikan mobil
     public void stop() {
         System.out.println(brand + " sedang berhenti...");
         engine.stopEngine();
     }
 
-    // Metode untuk menampilkan informasi mobil
+    // Method untuk menampilkan informasi mobil
     public void displayInfo() {
         System.out.println("Merek Mobil: " + brand);
         engine.displayInfo();

@@ -5,7 +5,7 @@
 
 /**
  *
- * @author user
+ * @author fito
  */
 public class Transmission {
     // Membuat variabel private karena hanya diakses oleh class ini saja
