@@ -124,12 +124,12 @@ This is the **main class** that provides the system interface.
 
 ## How to Run the Program
 1. Compile the Java files:
-```
+```nginx
 javac Unguided/entities/*.java ClinicSystem.java
 ```
    
 2. Run the application:
-```
+```nginx
 java ClinicSystem
 ```
 
