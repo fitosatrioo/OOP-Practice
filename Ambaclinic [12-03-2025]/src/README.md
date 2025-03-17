@@ -29,17 +29,100 @@ The **AMBA Clinic System** is a simple Java-based application that manages docto
 ## Project Structure
 
 ```
-
-├── src
-│   ├── Unguided/entities
-│   │   ├── Appointment.java
-│   │   ├── Doctor.java
-│   │   ├── Patient.java
-│   │   ├── DataChecker.java
-│   ├── ClinicSystem.java
-├── README.md
-
+Ambaclinic [12-03-2025]/
+└── src/
+    ├── Guided/
+    │   ├── Driver/
+    │   │   ├── TestPackages.java
+    │   ├── HargaBuku/
+    │   │   ├── Harga.java
+    │   ├── Token/
+    │   │   ├── KelasToken.java
+    │   ├── Animal.java
+    │   ├── Cat.java
+    │   ├── LibraryBook.java
+    ├── Unguided/
+    │   ├── entities/
+    │   │   ├── Doctor.java
+    │   │   ├── Patient.java
+    │   │   ├── Appointment.java
+    │   │   ├── DataChecker.java
+    ├── ClinicSystem.java
+└── README.md
 
 ```
 
 ---
+
+## Classes Description
+
+### `Doctor.java`
+This class represents a **Doctor** with:
+- An ID (`id`)
+- A name (`name`)
+- A specialization (`specialty`)
+
+**Methods:**
+- `getId()`: Returns the doctor’s ID.
+- `getName()`: Returns the doctor’s name.
+- `getSpecialty()`: Returns the doctor’s specialty.
+- `toString()`: Returns doctor information in a formatted string.
+
+---
+
+### `Patient.java`
+This class represents a **Patient** with:
+- An ID (`id`)
+- A name (`name`)
+- An age (`age`)
+- A list of diagnoses (`diagnoses`)
+
+**Methods:**
+- `getId()`: Returns the patient’s ID.
+- `getName()`: Returns the patient’s name.
+- `getAge()`: Returns the patient’s age.
+- `addDiagnosis(String diagnosis)`: Adds a diagnosis to the patient’s record.
+- `getDiagnoses()`: Returns a list of the patient’s diagnoses.
+- `toString()`: Returns patient information in a formatted string.
+
+---
+
+### `Appointment.java`
+This class represents an **Appointment** between a doctor and a patient.
+
+**Attributes:**
+- `doctor`: The assigned doctor.
+- `patient`: The patient.
+- `dateTime`: The appointment date and time.
+
+**Methods:**
+- `getDoctor()`: Returns the assigned doctor.
+- `getPatient()`: Returns the patient.
+- `getDateTime()`: Returns the appointment date and time.
+- `toString()`: Returns appointment details in a readable format.
+
+---
+
+### `DataChecker.java`
+This utility class validates input data such as names, ages, and IDs.
+
+**Validation Methods:**
+- `isValidName(String name)`: Ensures names have at least 3 letters and contain only alphabets and spaces.
+- `isValidAge(int age)`: Ensures age is between 1 and 109.
+- `isValidID(String id)`: Ensures ID is between 4-10 characters, containing uppercase letters and numbers only.
+
+---
+
+### Guided Package
+
+#### `Animal.java`
+- Represents an **Animal** class with basic attributes.
+
+#### `Cat.java`
+- Inherits from `Animal.java` and adds specific behaviors.
+
+#### `LibraryBook.java`
+- Represents a **library book** with attributes such as title, author, and availability.
+
+#### `Driver/`, `HargaBuku/`, `Token/`
+- Additional guided folders for different Java learning exercises.
