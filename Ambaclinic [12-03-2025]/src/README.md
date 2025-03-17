@@ -49,24 +49,23 @@ Ambaclinic [12-03-2025]/
     │   │   ├── DataChecker.java
     ├── ClinicSystem.java
 └── README.md
-
 ```
 
 ---
 
 ## Classes Description
 
-### `Doctor.java`
+### Doctor.java
 This class represents a **Doctor** with:
-- An ID (`id`)
-- A name (`name`)
-- A specialization (`specialty`)
+- An ID (id)
+- A name (name)
+- A specialization (specialty)
 
 **Methods:**
-- `getId()`: Returns the doctor’s ID.
-- `getName()`: Returns the doctor’s name.
-- `getSpecialty()`: Returns the doctor’s specialty.
-- `toString()`: Returns doctor information in a formatted string.
+- getId(): Returns the doctor’s ID.
+- getName(): Returns the doctor’s name.
+- getSpecialty(): Returns the doctor’s specialty.
+- toString(): Returns doctor information in a formatted string.
 
 ---
 
@@ -113,7 +112,7 @@ This utility class validates input data such as names, ages, and IDs.
 
 ---
 
-### `ClinicSystem.java`
+### ClinicSystem.java
 This is the **main class** that provides the system interface.
 
 **Main functionalities:**
@@ -121,3 +120,16 @@ This is the **main class** that provides the system interface.
 2. **Schedules doctor appointments**
 3. **Displays scheduled appointments**
 4. **Shows diagnosis statistics**
+
+
+## How to Run the Program
+1. Compile the Java files:
+```
+javac Unguided/entities/*.java ClinicSystem.java
+```
+   
+2. Run the application:
+```
+java ClinicSystem
+```
+
