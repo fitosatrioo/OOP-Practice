@@ -134,6 +134,7 @@ java ClinicSystem
 ```
 
 ## Documentation 
+<p><img src="https://res.cloudinary.com/dtzqdo3p0/image/upload/v1742253629/1_qfxc84.png"></p>
 [](https://res.cloudinary.com/dtzqdo3p0/image/upload/v1742253629/1_qfxc84.png)
 
 [](https://res.cloudinary.com/dtzqdo3p0/image/upload/v1742253630/2_ztts92.png)
