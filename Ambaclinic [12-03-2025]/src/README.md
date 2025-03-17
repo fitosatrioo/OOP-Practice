@@ -28,6 +28,10 @@ The **AMBA Clinic System** is a simple Java-based application that manages docto
 
 ## Project Structure
 
+```
+
 ├── src │ ├── Unguided/entities │ │ ├── Appointment.java │ │ ├── Doctor.java │ │ ├── Patient.java │ │ ├── DataChecker.java │ ├── ClinicSystem.java ├── README.md
+
+```
 
 ---
