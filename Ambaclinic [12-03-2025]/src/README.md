@@ -113,16 +113,11 @@ This utility class validates input data such as names, ages, and IDs.
 
 ---
 
-### Guided Package
+### `ClinicSystem.java`
+This is the **main class** that provides the system interface.
 
-#### `Animal.java`
-- Represents an **Animal** class with basic attributes.
-
-#### `Cat.java`
-- Inherits from `Animal.java` and adds specific behaviors.
-
-#### `LibraryBook.java`
-- Represents a **library book** with attributes such as title, author, and availability.
-
-#### `Driver/`, `HargaBuku/`, `Token/`
-- Additional guided folders for different Java learning exercises.
+**Main functionalities:**
+1. **Registers patients**
+2. **Schedules doctor appointments**
+3. **Displays scheduled appointments**
+4. **Shows diagnosis statistics**
