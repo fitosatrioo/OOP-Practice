@@ -70,46 +70,46 @@ This class represents a **Doctor** with:
 
 ---
 
-### `Patient.java`
+### Patient.java
 This class represents a **Patient** with:
-- An ID (`id`)
-- A name (`name`)
-- An age (`age`)
-- A list of diagnoses (`diagnoses`)
+- An ID (id)
+- A name (name)
+- An age (age)
+- A list of diagnoses (diagnoses)
 
 **Methods:**
-- `getId()`: Returns the patient’s ID.
-- `getName()`: Returns the patient’s name.
-- `getAge()`: Returns the patient’s age.
-- `addDiagnosis(String diagnosis)`: Adds a diagnosis to the patient’s record.
-- `getDiagnoses()`: Returns a list of the patient’s diagnoses.
-- `toString()`: Returns patient information in a formatted string.
+- getId(): Returns the patient’s ID.
+- getName(): Returns the patient’s name.
+- getAge(): Returns the patient’s age.
+- addDiagnosis(String diagnosis): Adds a diagnosis to the patient’s record.
+- getDiagnoses(): Returns a list of the patient’s diagnoses.
+- toString(): Returns patient information in a formatted string.
 
 ---
 
-### `Appointment.java`
+### Appointment.java
 This class represents an **Appointment** between a doctor and a patient.
 
 **Attributes:**
-- `doctor`: The assigned doctor.
-- `patient`: The patient.
-- `dateTime`: The appointment date and time.
+- doctor: The assigned doctor.
+- patient: The patient.
+- dateTime: The appointment date and time.
 
 **Methods:**
-- `getDoctor()`: Returns the assigned doctor.
-- `getPatient()`: Returns the patient.
-- `getDateTime()`: Returns the appointment date and time.
-- `toString()`: Returns appointment details in a readable format.
+- getDoctor(): Returns the assigned doctor.
+- getPatient(): Returns the patient.
+- getDateTime(): Returns the appointment date and time.
+- toString(): Returns appointment details in a readable format.
 
 ---
 
-### `DataChecker.java`
+### DataChecker.java
 This utility class validates input data such as names, ages, and IDs.
 
 **Validation Methods:**
-- `isValidName(String name)`: Ensures names have at least 3 letters and contain only alphabets and spaces.
-- `isValidAge(int age)`: Ensures age is between 1 and 109.
-- `isValidID(String id)`: Ensures ID is between 4-10 characters, containing uppercase letters and numbers only.
+- isValidName(String name): Ensures names have at least 3 letters and contain only alphabets and spaces.
+- isValidAge(int age): Ensures age is between 1 and 109.
+- isValidID(String id): Ensures ID is between 4-10 characters, containing uppercase letters and numbers only.
 
 ---
 
